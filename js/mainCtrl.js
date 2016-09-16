@@ -12,6 +12,7 @@ angular.module('movieFav').controller('mainCtrl', function ($scope, mainServ){
         .then(function(result) {
         $scope.movies = result;
         console.log(result);
+        
     })
 }
 
