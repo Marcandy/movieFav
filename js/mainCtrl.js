@@ -6,12 +6,14 @@ angular.module('movieFav').controller('mainCtrl', function ($scope, mainServ){
   //   });
 
 
-  $scope.searchMovie = function (movieName) {
-    mainServ.getMovie(movieName)
-      .then(function(result) {
-        $scope.movie = result;
-      })
-    }
+
+    $scope.searchMovie = function (movieName) {
+        mainServ.searchMovie(movieName)
+        .then(function(result) {
+        $scope.movies = result;
+        console.log(result);
+    })
+}
 
 
 });

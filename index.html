@@ -11,14 +11,14 @@
 
 <input type="text" placeholder="search" ng-model='movieName'>
 <button type="button" ng-click=searchMovie(movieName)>submit</button>
-<img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}}">
 
-<!-- <ul>
+
+<ul>
   <li ng-repeat='movie in movies'>
     <h3>{{movie.original_title}}</h3>
     <img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}}">
   </li>
-</ul> -->
+</ul>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
 <script src="app.js"></script>
