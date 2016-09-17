@@ -1,1 +1,1 @@
-angular.module('movieFav', []);
+angular.module('movieFav', ['ui.router']);

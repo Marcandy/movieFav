@@ -1,20 +1,23 @@
-angular.module('movieFav').controller('mainCtrl', function ($scope, mainServ){
+angular.module('movieFav').controller('mainCtrl', function($scope, mainServ) {
 
-  // mainServ.getData()
-  //   .then(function (movies) {
-  //     $scope.movies = movies;
-  //   });
+    mainServ.getData()
+      .then(function (movies) {
+        $scope.movies = movies;
+      });
 
 
 
-    $scope.searchMovie = function (movieName) {
+
+    $scope.searchMovie = function(movieName) {
         mainServ.searchMovie(movieName)
-        .then(function(result) {
-        $scope.movies = result;
-        console.log(result);
-        
-    })
-}
+            .then(function(result) {
+                $scope.movies = result;
+                console.log(result);
+
+            })
+    }
+
+    // titlle funcion
 
 
 });

@@ -1,0 +1,74 @@
+/*.
+.col-md-3 {
+  width: 23%;
+  display: inline-block;
+}*/
+
+/*.sidevar {
+  display: inline-block;
+  height: 100vh;
+  float: left;
+}*/
+
+/*img {
+  width: 400px;
+  height: 450px;
+}*/
+/*.col-sm-11 {
+  margin left: 80px;
+}*/
+
+body {
+  /*background-color: #663399;*/
+
+  background: -moz-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #800080), color-stop(100%, #000000)); /* safari4+,chrome */
+background: -webkit-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ie10+ */
+background: radial-gradient(ellipse at center, #800080 0%, #000000 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+}
+
+header {
+  font-family: fantasy;
+  text-align: center;
+  color: ffce38;
+
+}
+
+.cover {
+  background-image: url(images/covertest.jpg);
+  height: 300px;
+  margin: 0 0 50px;
+  padding: 7%;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #9DBE00;
+}
+
+
+.movie-wrapper {
+min-height: 455px;
+
+}
+
+.movie-wrapper img {
+  width: 100%;
+
+}
+
+.title {
+  width: 100%;
+  height: 65px;
+
+}
+
+.title h3 {
+  color: white;
+  text-align: center;
+  font-size: 21px;
+}
