@@ -44,15 +44,19 @@ header {
   padding: 7%;
 }
 
+.menu {
+  margin-bottom: 40px;
+}
+
 h1 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: bold;
   color: #9DBE00;
 }
 
 
 .movie-wrapper {
-min-height: 455px;
+min-height: 535px;
 
 }
 

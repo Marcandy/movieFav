@@ -1,0 +1,10 @@
+<main >
+  <div class="col-md-12">
+    <div class="col-md-3 movie-wrapper" ng-repeat='movie in movies' >
+    <img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}}">
+    <div class="title">
+        <h3>{{movie.original_title}}</h3>
+    </div>
+    </div>
+  </div>
+</main>
