@@ -113,6 +113,10 @@ h1 {
   color: #9DBE00
 }
 
+.left {
+  margin-right: 90px;
+}
+
 /*---------------------*/
 /*#search {
     float: right;
