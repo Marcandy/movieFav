@@ -16,6 +16,17 @@ angular.module('movieFav', ['ui.router']).config(function ($stateProvider, $urlR
       templateUrl: 'js/popup/popup.html',
       controller: 'popCtrl'
     })
+    .state('toprated', {
+      url: '/toprated',
+      templateUrl: 'js/toprated/toprated.html',
+      controller: 'topCtrl'
+    })
+    .state('upcoming', {
+      url: '/upcoming',
+      templateUrl: 'js/upcoming/upcoming.html',
+      controller: 'upCtrl'
+    });
+
 
 
 

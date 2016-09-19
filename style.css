@@ -44,7 +44,7 @@ header {
 
 .area {
   text-align:center;
-  font-size:5.5em;
+  font-size:5em;
   color:#9DBE00;
   letter-spacing: -7px;
   font-weight:700;
@@ -94,8 +94,18 @@ h1 {
   color: #9DBE00;
 }
 
+.details {
+  color: white;
+}
 
+.row {
+    overflow: hidden;
+}
 
+/*.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}*/
 
 .movie-wrapper {
 min-height: 535px;
@@ -104,7 +114,10 @@ min-height: 535px;
 
 .movie-wrapper img {
   width: 100%;
+}
 
+.popup img {
+  width: 100%;
 }
 
 .title {

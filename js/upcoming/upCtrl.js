@@ -1,6 +1,6 @@
-angular.module('movieFav').controller('topCtrl', function($scope, mainServ, $state) {
+angular.module('movieFav').controller('upCtrl', function($scope, mainServ, $state) {
 
-  mainServ.topRated()
+  mainServ.upComing()
       .then(function (movies) {
         $scope.movies = movies;
       });
