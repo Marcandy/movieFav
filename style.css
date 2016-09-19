@@ -17,25 +17,65 @@
 /*.col-sm-11 {
   margin left: 80px;
 }*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
 
 body {
   /*background-color: #663399;*/
+  /*hsl(200,70,11)*/
 
-  background: -moz-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ff3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #800080), color-stop(100%, #000000)); /* safari4+,chrome */
-background: -webkit-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* safari5.1+,chrome10+ */
-background: -o-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* opera 11.10+ */
-background: -ms-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ie10+ */
-background: radial-gradient(ellipse at center, #800080 0%, #000000 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+
+    background: -moz-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #800080), color-stop(100%, #000000)); /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ie10+ */
+    background: radial-gradient(ellipse at center, #800080 0%, #000000 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+
+    font-family: "Open Sans",  Impact;
 }
 
 header {
   font-family: fantasy;
   text-align: center;
   color: ffce38;
-
 }
+
+.area {
+  text-align:center;
+  font-size:5.5em;
+  color:#9DBE00;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
 
 .cover {
   background-image: url(images/covertest.jpg);
@@ -53,6 +93,8 @@ h1 {
   font-weight: bold;
   color: #9DBE00;
 }
+
+
 
 
 .movie-wrapper {

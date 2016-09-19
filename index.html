@@ -10,13 +10,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
-<body ng-controller='movieSearch'>
+
+<body ng-controller='mainCtrl'>
 
 
 
-<header class="hero">
+<header class="hero" >
   <div class="cover col-md-12">
-    <h1>movieFav</h1>
+
+    <div class="area">
+      Movie ☺ Explorer
+    </div>
+
   </div>
 
   <div class="menu col-md-12">
@@ -32,7 +37,10 @@
 </header>
 
 
-<div ui-view></div>
+<div ui-view>
+
+
+</div>
 
 
 
@@ -56,5 +64,8 @@
 <script src="js/mainServ.js"></script>
 <script src="js/popular/popularCtrl.js"></script>
 <script src="js/search/movieSearch.js"></script>
+<script src="js/popup/popup.js"></script>
+<script src="js/popup/popCtrl.js"></script>
+
 </body>
 </html>

@@ -1,4 +1,4 @@
-angular.module('movieFav').controller('popularCtrl', function($scope, mainServ, $state) {
+angular.module('movieFav').controller('topCtrl', function($scope, mainServ, $state) {
 
   mainServ.getData()
       .then(function (movies) {

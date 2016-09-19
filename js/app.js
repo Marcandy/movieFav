@@ -1,4 +1,4 @@
-angular.module('movieFav', ['ui.router', 'ui.bootstrap']).config(function ($stateProvider, $urlRouterProvider) {
+angular.module('movieFav', ['ui.router']).config(function ($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('popular', {
@@ -10,7 +10,14 @@ angular.module('movieFav', ['ui.router', 'ui.bootstrap']).config(function ($stat
       url: '/search',
       templateUrl: 'js/search/movieSearch.html',
       controller: 'movieSearch'
-    });
+    })
+    .state('popup', {
+      url: '/popup',
+      templateUrl: 'js/popup/popup.html',
+      controller: 'popCtrl'
+    })
+
+
 
   $urlRouterProvider
     .otherwise('/');
