@@ -44,7 +44,7 @@ header {
 
 .area {
   text-align:center;
-  font-size:5em;
+  font-size:4.5em;
   color:#9DBE00;
   letter-spacing: -7px;
   font-weight:700;
@@ -97,6 +97,67 @@ h1 {
 .details {
   color: white;
 }
+
+.btn-warning {
+  background-color: #9DBE00;
+}
+
+.border {
+  border: 1px dashed #9DBE00;
+	box-shadow: 0 0 0  #fff, 0 0 0 3px #9DBE00;
+
+}
+
+.tags {
+  font-size: 20px;
+  color: #9DBE00
+}
+
+/*---------------------*/
+/*#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 210px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+        }
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}*/
+
 
 .row {
     overflow: hidden;
