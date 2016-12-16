@@ -107,9 +107,10 @@ h1 {
 }
 
 .border {
-  border: 1px dashed #9DBE00;
+  border: 3px groove #9DBE00;
 	box-shadow: 0 0 0  #fff, 0 0 0 3px #9DBE00;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .tags {
