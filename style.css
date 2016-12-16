@@ -107,18 +107,32 @@ h1 {
 }
 
 .border {
-  border: 1px dashed #9DBE00;
+  border: 3px groove #9DBE00;
 	box-shadow: 0 0 0  #fff, 0 0 0 3px #9DBE00;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputS {
+  width: 50%;
+  border-radius: 10px;
+
 
 }
 
 .tags {
-  font-size: 20px;
-  color: #9DBE00
+  font-size: 28px;
+  padding: 15px;
+  color: #9DBE00;
+  font-family: 'Eczar', serif;
 }
 
 .left {
-  margin-right: 90px;
+  width: 45%
+}
+
+.right {
+  width: 45%;
 }
 
 /*---------------------*/
