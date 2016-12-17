@@ -136,19 +136,19 @@ h1 {
 }
 
 .boxin {
-  color: white;
+  /*color: white;*/
   width: 40%;
   position: relative;
 }
 /*input animation*/
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
 .inputbox {
 	height: 10px;
 	width: 70%;
 	position: absolute;
-	/*top: 50%;*/
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -255,7 +255,7 @@ h1 {
 	transform: translate(-50%, -50%) rotate(45deg) scaleY(0);
 	transition: transform 0.2s ease-in-out;
 	transition-delay: 0.4s;
-}
+}*/
 
 
 
