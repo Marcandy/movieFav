@@ -20,6 +20,9 @@
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
 
 
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+
+
 body {
   /*background-color: #663399;*/
   /*hsl(200,70,11)*/
@@ -49,9 +52,10 @@ header {
   letter-spacing: -7px;
   font-weight:700;
   text-transform:uppercase;
-  animation:blur .75s ease-out infinite;
-  text-shadow:0px 0px 5px #fff,
-      0px 0px 7px #fff;
+  font-family: 'Eczar', serif;
+  /*animation:blur .75s ease-out infinite;*/
+  /*text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;*/
 }
 
 @keyframes blur{
@@ -103,19 +107,157 @@ h1 {
 }
 
 .border {
-  border: 1px dashed #9DBE00;
+  border: 3px groove #9DBE00;
 	box-shadow: 0 0 0  #fff, 0 0 0 3px #9DBE00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputS {
+  width: 50%;
+  border-radius: 10px;
+
 
 }
 
 .tags {
-  font-size: 20px;
-  color: #9DBE00
+  font-size: 28px;
+  padding: 15px;
+  color: #9DBE00;
+  font-family: 'Eczar', serif;
 }
 
 .left {
-  margin-right: 90px;
+  width: 45%
 }
+
+.right {
+  width: 45%;
+}
+
+.boxin {
+  /*color: white;*/
+  width: 40%;
+  position: relative;
+}
+/*input animation*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+.inputbox {
+	height: 10px;
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.inputbox input {
+	width: 80%;
+	min-width: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 16.5px 0;
+	border: 0;
+	background: none;
+	width: 50px;
+	position: absolute;
+	top: 0;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 100%;
+	transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out, padding 0.2s;
+	transition-delay: 0s, 0.4s, 0s;
+	box-shadow: 0 0 0 1px currentColor;
+	color: inherit;
+	cursor: pointer;
+	padding: 16.5px 0;
+	padding-right: 50px;
+	font-weight: lighter;
+	font-family: 'Roboto';
+}
+
+.inputbox input:focus, .inputbox input:valid {
+	width: 75%;
+	transition-delay: 0.4s, 0s, 0.4s;
+	outline: 0;
+	border-radius: 0;
+	cursor: text;
+	padding-left: 16.5px;
+}
+
+.inputbox input:focus + .del, .inputbox input:valid + .del {
+	pointer-events: all;
+	left: calc(100% - 25px);
+	transition-delay: 0.4s;
+}
+
+.inputbox input:focus + .del:focus, .inputbox input:valid + .del:focus {
+	box-shadow: 0 0 0 1px currentColor;
+	height: 37.5px;
+	width: 37.5px;
+}
+
+.inputbox input:focus + .del:before, .inputbox input:valid + .del:before {
+	transform: translate(-50%, -50%) rotate(-45deg) scaleY(0.7);
+	transition-delay: 0s;
+}
+
+.inputbox input:focus + .del:after, .inputbox input:valid + .del:after {
+	transform: translate(-50%, -50%) rotate(45deg) scaleY(0.7);
+	transition-delay: 0.2s;
+}
+
+.inputbox .del {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%, -20%);
+	height: 40px;
+	width: 50px;
+	padding: 0;
+	background: none;
+	border-radius: 100%;
+	border: 0;
+	pointer-events: none;
+	transition: left 0.4s ease-in-out;
+	transition-delay: 0s;
+	color: inherit;
+	cursor: pointer;
+}
+
+.inputbox .del:focus {
+	outline: none;
+}
+
+.inputbox .del:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: currentColor;
+	width: 1px;
+	height: 37.5px;
+	transform: translate(32.25px, 32.25px) translate(-50%, -50%) rotate(-45deg) scaleY(1);
+	transition: transform 0.2s ease-in-out;
+	transition-delay: 0.6s;
+}
+
+.inputbox .del:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: currentColor;
+	width: 1px;
+	height: 37.5px;
+	transform: translate(-50%, -50%) rotate(45deg) scaleY(0);
+	transition: transform 0.2s ease-in-out;
+	transition-delay: 0.4s;
+}*/
+
+
 
 /*---------------------*/
 /*#search {

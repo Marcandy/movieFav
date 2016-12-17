@@ -36,23 +36,31 @@
                 </div>
             </div> -->
 
-    <span class="left">
-        <input  type="text" placeholder="search" ng-model='movieName'>
-        <button type="button" class=" btn btn-warning"  ng-click='searchMovie(movieName)'>submit
+          <!-- test for css inbox animation -->
+            <!-- <form class="inputbox">
+          <input required="required"/>
+          <button type="reset" class="del"></button>
+        </form> -->
+      <div class="boxin">
+
+        <input  type="text" placeholder="  search" ng-model='movieName' class=inputS>
+        <button type="button" class=" btn btn-warning"  ng-click='searchMovie(movieName)'>Search
         </button>
-    </span>
+      </div>
 
 
-            <span><a class='tags' ui-sref='popular'>Popular</a></span>
-            <span>
-                -
-            <a class='tags' ui-sref='toprated'>TopRated</a></span>
-                -
-            <a class='tags'
-            ui-sref='upcoming'>Upcoming</a>
 
 
+
+        <div class="right">
+          <span><a class='tags' ui-sref='popular'>Popular</a></span>
+          <span>-<a class='tags' ui-sref='toprated'>TopRated</a></span> -
+          <a class='tags' ui-sref='upcoming'>Upcoming</a>
         </div>
+
+
+
+          </div>
 
     </header>
 
