@@ -1,7 +1,7 @@
 <main>
     <div class="col-md-12">
         <div class="col-md-3 movie-wrapper" ng-repeat='movie in movies'>
-            <a class='point' ng-click="viewData(movie.id)"><img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}} "></a>
+            <a class='point' ng-click="viewData(movie.id), getVideo(movie.id)"><img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}} "></a>
             <div class="title">
                 <h3>{{movie.original_title}}</h3>
             </div>

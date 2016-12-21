@@ -13,6 +13,7 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
     var api = '?api_key=992bee131be669ca2f75ef3b62f31264';
 
     // this.savedInfo;
+    // this.savedVideo
 
     this.getData = function() {
         // var deferred = $q.defer();
@@ -40,6 +41,16 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
                 console.log(info.data);
                 // this.savedInfo = info.data;
                 return info.data;
+
+            })
+    }
+// could be useful to do getinfo with getvideos
+    this.getVideo = function(movieId) {
+        return $http.get(infoUrl + movieId + '/videos' + api)
+            .then(function(video) {
+                console.log(video.data);
+                // this.savedInfo = info.data;
+                return video.data;
 
             })
     }
