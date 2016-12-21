@@ -12,8 +12,8 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
 
     var api = '?api_key=992bee131be669ca2f75ef3b62f31264';
 
-    // this.savedInfo;
-    // this.savedVideo
+    this.savedInfo;
+    this.savedVideo;
 
     this.getData = function() {
         // var deferred = $q.defer();
@@ -50,7 +50,7 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
             .then(function(video) {
                 console.log(video.data);
                 // this.savedInfo = info.data;
-                return video.data;
+                return video.data.results;
 
             })
     }

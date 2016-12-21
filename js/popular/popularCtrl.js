@@ -8,6 +8,7 @@ angular.module('movieFav').controller('popularCtrl', function($scope, mainServ, 
       $scope.viewData = function(movieId) {
         mainServ.getInfo(movieId)
           .then(function (info) {
+            $scope.getVideo(movieId)
             console.log(info)
             mainServ.savedInfo = info
             $state.go('popup');
