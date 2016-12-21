@@ -15,7 +15,7 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
     // this.savedInfo ;
     // this.savedVideo;
     // var movieId;
-    var key;
+    // var key;
 
 
     this.getData = function() {
@@ -54,11 +54,16 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
             .then(function(video) {
                 console.log(video.data);
                 // this.savedInfo = info.data;
-                key = video.data.results[0].key;
-                return 
+                return video.data.results[0].key; // we returning a promise, but could do it differently by saving the video result into a global variable name key, then making a this.getkey methode in the this service to send it to any controller we want
+
+                // return key;
             })
 
     }
+
+    // this.getKey = function () {
+    //   return key;
+    // }
 
     this.topRated = function() {
         return $http.get(topUrl + api)
@@ -77,7 +82,5 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
     }
 
 
-    this.getKey = function () {
-      return key;
-    }
+
 });

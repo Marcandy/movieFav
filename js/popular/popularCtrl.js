@@ -6,7 +6,7 @@ angular.module('movieFav').controller('popularCtrl', function($scope, mainServ, 
       });
 
       $scope.viewData = function(movieId) {
-        mainServ.getVideo(movieId)
+        $scope.getVideo(movieId)
         mainServ.getInfo(movieId)
           .then(function (info) {
 
@@ -18,9 +18,17 @@ angular.module('movieFav').controller('popularCtrl', function($scope, mainServ, 
       })
     }
 
-  //   $scope.getVideo = function(movieId) {
-  //     mainServ.getVideo(movieId);
-  // }
+    $scope.getVideo = function(movieId) {
+        mainServ.getVideo(movieId)
+          .then(function (video) {
+
+            console.log(video)
+            mainServ.key = video;
+
+            // $state.go('popup');
+
+      })
+  }
 
 
 
