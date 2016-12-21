@@ -1,21 +1,20 @@
+<div class="col-md-12">
+    <div class="col-md-3 movie-wrapper" ng-repeat='movie in movies'>
 
-  <div class="col-md-12">
-    <div class="col-md-3 movie-wrapper" ng-repeat='movie in movies' >
+        <a class='point' ng-click="viewData(movie.id)">
 
-    <a class='point' ng-click="viewData(movie.id)">
+            <img ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}}">
 
-    <img  ng-src="http://image.tmdb.org/t/p/w500{{movie.poster_path}}">
-
-    </a>
-
+        </a>
 
 
-    <div class="title">
-        <h3>{{movie.original_title}}</h3>
+
+        <div class="title">
+            <h3>{{movie.original_title}}</h3>
+        </div>
+
+        <!-- <popup></popup> -->
     </div>
-
-    <!-- <popup></popup> -->
-    </div>
-  </div>
+</div>
 
 <!-- ng-click='someFunction({{movie.id}}) near ng-src -->
