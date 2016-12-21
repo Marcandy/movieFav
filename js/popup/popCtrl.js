@@ -4,7 +4,7 @@ $scope.info = mainServ.savedInfo;
 // $scope.video = mainServ.savedVideo[0].key;
  // you get many videos the first is usually the officail trailer
  $scope.key = mainServ.key;
-$scope.url = $sce.trustAsResourceUrl('https:www.youtube.com/embed/' + $scope.key);
+$scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + $scope.key);
 //need to make it trusted because of angular
 
 });
