@@ -39,16 +39,16 @@ angular.module('movieFav').service('mainServ', function($http, $q) {
     }
 
     this.getInfo = function(movieId) {
-      // movieId = id;
-        return $http.get(infoUrl + movieId + api)
-            .then(function(info) {
-                console.log(info.data);
-                // this.savedInfo = info.data;
-                return info.data;
+            // movieId = id;
+            return $http.get(infoUrl + movieId + api)
+                .then(function(info) {
+                    console.log(info.data);
+                    // this.savedInfo = info.data;
+                    return info.data;
 
-            })
-    }
-// could be useful to do getinfo with getvideos
+                })
+        }
+        // could be useful to do getinfo with getvideos
     this.getVideo = function(movieId) {
         return $http.get(infoUrl + movieId + '/videos' + api)
             .then(function(video) {

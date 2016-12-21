@@ -4,146 +4,138 @@
   display: inline-block;
 }*/
 
+
 /*.sidevar {
   display: inline-block;
   height: 100vh;
   float: left;
 }*/
 
+
 /*img {
   width: 400px;
   height: 450px;
 }*/
+
+
 /*.col-sm-11 {
   margin left: 80px;
 }*/
+
+
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
 
-
 @import url('https://fonts.googleapis.com/css?family=Eczar');
-
-
 body {
-  /*background-color: #663399;*/
-  /*hsl(200,70,11)*/
-
-
-    background: -moz-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ff3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #800080), color-stop(100%, #000000)); /* safari4+,chrome */
-    background: -webkit-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* safari5.1+,chrome10+ */
-    background: -o-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* opera 11.10+ */
-    background: -ms-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%); /* ie10+ */
-    background: radial-gradient(ellipse at center, #800080 0%, #000000 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
-
-    font-family: "Open Sans",  Impact;
+    /*background-color: #663399;*/
+    /*hsl(200,70,11)*/
+    background: -moz-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #800080), color-stop(100%, #000000));
+    /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%);
+    /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #800080 0%, #000000 100%);
+    /* ie10+ */
+    background: radial-gradient(ellipse at center, #800080 0%, #000000 100%);
+    /* w3c */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#000000', GradientType=1);
+    /* ie6-9 */
+    font-family: "Open Sans", Impact;
 }
 
 header {
-  font-family: fantasy;
-  text-align: center;
-  color: ffce38;
+    font-family: fantasy;
+    text-align: center;
+    color: ffce38;
 }
 
 .area {
-  text-align:center;
-  font-size:4.5em;
-  color:#9DBE00;
-  letter-spacing: -7px;
-  font-weight:700;
-  text-transform:uppercase;
-  font-family: 'Eczar', serif;
-  /*animation:blur .75s ease-out infinite;*/
-  /*text-shadow:0px 0px 5px #fff,
+    text-align: center;
+    font-size: 4.5em;
+    color: #9DBE00;
+    letter-spacing: -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Eczar', serif;
+    /*animation:blur .75s ease-out infinite;*/
+    /*text-shadow:0px 0px 5px #fff,
       0px 0px 7px #fff;*/
 }
 
-@keyframes blur{
-  from{
-      text-shadow:0px 0px 10px #fff,
-      0px 0px 10px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #7B96B8,
-      0px 0px 150px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px -10px 100px #7B96B8,
-      0px -10px 100px #7B96B8;}
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    }
 }
 
 .point {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .cover {
-  background-image: url(images/covertest.jpg);
-  height: 300px;
-  margin: 0 0 50px;
-  padding: 7%;
+    background-image: url(images/covertest.jpg);
+    height: 300px;
+    margin: 0 0 50px;
+    padding: 7%;
 }
 
 .menu {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 h1 {
-  font-size: 55px;
-  font-weight: bold;
-  color: #9DBE00;
+    font-size: 55px;
+    font-weight: bold;
+    color: #9DBE00;
 }
 
 .details {
-  color: white;
+    color: white;
 }
 
 .btn-warning {
-  background-color: #9DBE00;
+    background-color: #9DBE00;
 }
 
 .border {
-  border: 3px groove #9DBE00;
-	box-shadow: 0 0 0  #fff, 0 0 0 3px #9DBE00;
-  display: flex;
-  justify-content: space-between;
+    border: 3px groove #9DBE00;
+    box-shadow: 0 0 0 #fff, 0 0 0 3px #9DBE00;
+    display: flex;
+    justify-content: space-between;
 }
 
 .inputS {
-  width: 50%;
-  border-radius: 10px;
-
-
+    width: 50%;
+    border-radius: 10px;
 }
 
 .tags {
-  font-size: 28px;
-  padding: 15px;
-  color: #9DBE00;
-  font-family: 'Eczar', serif;
+    font-size: 28px;
+    padding: 15px;
+    color: #9DBE00;
+    font-family: 'Eczar', serif;
 }
 
 .left {
-  width: 45%
+    width: 45%
 }
 
 .right {
-  width: 45%;
+    width: 45%;
 }
 
 .boxin {
-  /*color: white;*/
-  width: 40%;
-  position: relative;
+    /*color: white;*/
+    width: 40%;
+    position: relative;
 }
+
+
 /*input animation*/
+
 
 /*@import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
@@ -261,8 +253,9 @@ h1 {
 }*/
 
 
-
 /*---------------------*/
+
+
 /*#search {
     float: right;
     margin-top: 9px;
@@ -307,10 +300,10 @@ h1 {
     border-radius:1px;
 }*/
 
-
 .row {
     overflow: hidden;
 }
+
 
 /*.row.match-my-cols [class*="col-"]{
     margin-bottom: -99999px;
@@ -318,26 +311,24 @@ h1 {
 }*/
 
 .movie-wrapper {
-min-height: 535px;
-
+    min-height: 535px;
 }
 
 .movie-wrapper img {
-  width: 100%;
+    width: 100%;
 }
 
 .popup img {
-  width: 100%;
+    width: 100%;
 }
 
 .title {
-  width: 100%;
-  height: 65px;
-
+    width: 100%;
+    height: 65px;
 }
 
 .title h3 {
-  color: white;
-  text-align: center;
-  font-size: 21px;
+    color: white;
+    text-align: center;
+    font-size: 21px;
 }
