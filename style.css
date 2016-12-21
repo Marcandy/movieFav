@@ -80,6 +80,9 @@ header {
       0px -10px 100px #7B96B8;}
 }
 
+.point {
+  cursor: pointer;
+}
 
 .cover {
   background-image: url(images/covertest.jpg);
