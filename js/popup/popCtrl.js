@@ -2,4 +2,5 @@ angular.module('movieFav').controller('popCtrl', function($scope, $state, mainSe
 
 $scope.info = mainServ.savedInfo;
 
+
 });
